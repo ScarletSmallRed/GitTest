@@ -36,3 +36,19 @@ Log git commit history:
 $ git log
 $ git log --oneline
 ```
+##Undoing Things
+Go back and check out one particular commit, but it's read only:
+```shell
+$ git checkout <commit id>
+Return to the master branch:
+$ git checkout master
+```
+Revert one particular commit:
+```shell
+$ git revert <commit id>
+```
+Go back to one particular commit and return:
+```shell
+$ git reset <commit id> --hard
+$ git reflog
+```

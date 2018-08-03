@@ -31,3 +31,8 @@ Commit changes:
 ```shell
 $ git commit -m ""
 ```
+Log git commit history:
+```shell
+$ git log
+$ git log --oneline
+```

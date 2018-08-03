@@ -51,4 +51,5 @@ Go back to one particular commit and return:
 ```shell
 $ git reset <commit id> --hard
 $ git reflog
+$ git reset <commit id> --hard
 ```

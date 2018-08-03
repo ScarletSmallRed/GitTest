@@ -64,3 +64,7 @@ Delete one particular branch:
 ```shell
 $ git branch -D feature-1
 ```
+Merge branches:
+```shell
+$ git merge featuer-1
+```

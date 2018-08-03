@@ -53,3 +53,14 @@ $ git reset <commit id> --hard
 $ git reflog
 $ git reset <commit id> --hard
 ```
+##Branches
+Create a new brance or swith to it in the meanwhile:
+```shell
+$ git branch feature-1
+$ git checkout feature-1
+$ git checkout -b feature-1
+```
+Delete one particular branch:
+```shell
+$ git branch -D feature-1
+```

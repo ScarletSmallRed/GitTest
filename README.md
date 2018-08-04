@@ -37,7 +37,7 @@ $ git log
 $ git log --oneline
 ```
 ## Undoing Things
-Go back and check out one particular commit, but it's read only:
+Go back and check out one particular commit, but it's read only:
 ```shell
 $ git checkout <commit id>
 Return to the master branch:

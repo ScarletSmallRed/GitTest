@@ -40,7 +40,9 @@ $ git log --oneline
 Go back and check out one particular commit, but it's read only:
 ```shell
 $ git checkout <commit id>
+```
 Return to the master branch:
+```shell
 $ git checkout master
 ```
 Revert one particular commit:

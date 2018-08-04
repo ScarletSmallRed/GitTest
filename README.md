@@ -35,6 +35,7 @@ Log git commit history:
 ```shell
 $ git log
 $ git log --oneline
+$ git log --pretty=oneline
 ```
 ## Undoing Things
 Go back and check out one particular commit, but it's read only:

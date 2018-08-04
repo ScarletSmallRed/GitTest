@@ -5,7 +5,7 @@ Create a new repository which Git can track changes in:
 ```shell
 $ git init
 ```
-Check the git repository status:
+Check the git repository status:
 ```shell
 $ git status
 ```

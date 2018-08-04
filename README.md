@@ -1,6 +1,6 @@
-#Git & GitHub for Beginners
+# Git & GitHub for Beginners
 Record some common commands for git.
-##Creating a Repository
+## Creating a Repository
 Create a new repository which Git can track changes in:
 ```shell
 $ git init
@@ -9,7 +9,7 @@ $ git init
 ```shell
 $ git status
 ```
-##Staging files
+## Staging files
 We need to add our files to a staging area before we commit them:
 ```shell
 $ git add <file>...
@@ -26,7 +26,7 @@ unstage all files:
 ```shell
 $ git rm -r -cached .
 ```
-##Making Commits
+## Making Commits
 Commit changes:
 ```shell
 $ git commit -m ""
@@ -36,7 +36,7 @@ Log git commit history:
 $ git log
 $ git log --oneline
 ```
-##Undoing Things
+## Undoing Things
 Go back and check out one particular commit, but it's read only:
 ```shell
 $ git checkout <commit id>
@@ -53,7 +53,7 @@ $ git reset <commit id> --hard
 $ git reflog
 $ git reset <commit id> --hard
 ```
-##Branches
+## Branches
 Create a new brance or swith to it in the meanwhile:
 ```shell
 $ git branch feature-1
@@ -67,4 +67,10 @@ $ git branch -D feature-1
 Merge branches:
 ```shell
 $ git merge featuer-1
+```
+## Introducing to GitHub
+How to use it to store remote repositories:
+```shell
+$ git remote add origin <link>
+$ git push -u origin master
 ```

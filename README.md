@@ -71,6 +71,13 @@ Merge branches:
 ```shell
 $ git merge featuer-1
 ```
+## Edit .gitignore File
+1. Deleted tracked files:
+```shell
+$ git rm --cached ignore_files
+$ git commit -m "deleted unnecessary files"
+```
+2. Added new rules in `.gitignore` file. 
 ## Introducing to GitHub
 How to use it to store remote repositories:
 ```shell
